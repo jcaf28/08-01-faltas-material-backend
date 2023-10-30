@@ -1,0 +1,53 @@
+./
+./
+│   ├── .env
+│   ├── .gitignore
+│   ├── alembic.ini
+│   ├── main.py
+│   ├── requirements.txt
+├── .pytest_cache/
+│   │   ├── .gitignore
+│   │   ├── CACHEDIR.TAG
+│   │   ├── README.md
+│   ├── v/
+│   │   ├── cache/
+│   │   │   │   ├── lastfailed
+│   │   │   │   ├── nodeids
+│   │   │   │   ├── stepwise
+├── alembic/
+│   │   ├── README
+│   │   ├── env.py
+│   │   ├── script.py.mako
+│   ├── versions/
+│   │   │   ├── 124a548036b3_initial_migration.py
+├── datos/
+│   │   ├── movies.db
+│   │   ├── movies.py
+│   │   ├── test_movies.db
+├── src/
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   │   ├── llenar_base_de_datos.py
+│   │   ├── models.py
+│   │   ├── pydantic_models.py
+│   ├── middlewares/
+│   │   │   ├── __init__.py
+│   │   │   ├── error_handler.py
+│   ├── routers/
+│   │   │   ├── auth.py
+│   │   │   ├── movies.py
+│   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── auth.py
+│   │   │   ├── movies.py
+│   ├── utils/
+│   │   │   ├── _auth.py
+│   │   │   ├── _jwt_bearer.py
+│   │   │   ├── headers.py
+│   │   │   ├── reiniciar_proyecto.py
+│   │   │   ├── tree.py
+├── tests/
+│   │   ├── __init__.py
+│   │   ├── test_auth.py
+│   │   ├── test_movies.db
+│   │   ├── test_movies_endpoints.py
