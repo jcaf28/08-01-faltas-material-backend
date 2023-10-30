@@ -1,53 +1,53 @@
 ./
-./
 │   ├── .env
 │   ├── .gitignore
 │   ├── alembic.ini
-│   ├── main.py
 │   ├── requirements.txt
-├── .pytest_cache/
-│   │   ├── .gitignore
-│   │   ├── CACHEDIR.TAG
-│   │   ├── README.md
-│   ├── v/
-│   │   ├── cache/
-│   │   │   │   ├── lastfailed
-│   │   │   │   ├── nodeids
-│   │   │   │   ├── stepwise
 ├── alembic/
 │   │   ├── README
 │   │   ├── env.py
 │   │   ├── script.py.mako
 │   ├── versions/
-│   │   │   ├── 124a548036b3_initial_migration.py
-├── datos/
-│   │   ├── movies.db
-│   │   ├── movies.py
-│   │   ├── test_movies.db
-├── src/
+├── app/
 │   │   ├── __init__.py
-│   │   ├── database.py
-│   │   ├── llenar_base_de_datos.py
-│   │   ├── models.py
-│   │   ├── pydantic_models.py
-│   ├── middlewares/
+│   │   ├── main.py
+│   ├── api/
+│   │   ├── dependencies/
+│   │   ├── routers/
+│   │   │   │   ├── admin.py
+│   ├── core/
 │   │   │   ├── __init__.py
-│   │   │   ├── error_handler.py
-│   ├── routers/
-│   │   │   ├── auth.py
-│   │   │   ├── movies.py
+│   │   │   ├── config.py
+│   ├── db/
+│   │   │   ├── __init__.py
+│   │   │   ├── base.py
+│   │   │   ├── init_db.py
+│   │   │   ├── session.py
+│   ├── middlewares/
+│   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── models.py
+│   ├── schemas/
+│   │   │   ├── __init__.py
+│   │   │   ├── articulo.py
+│   │   │   ├── articulo_kit.py
+│   │   │   ├── bogie.py
+│   │   │   ├── falta.py
+│   │   │   ├── kit.py
+│   │   │   ├── proyecto.py
+│   │   │   ├── vertice.py
 │   ├── services/
 │   │   │   ├── __init__.py
-│   │   │   ├── auth.py
-│   │   │   ├── movies.py
-│   ├── utils/
-│   │   │   ├── _auth.py
-│   │   │   ├── _jwt_bearer.py
-│   │   │   ├── headers.py
-│   │   │   ├── reiniciar_proyecto.py
-│   │   │   ├── tree.py
-├── tests/
-│   │   ├── __init__.py
-│   │   ├── test_auth.py
-│   │   ├── test_movies.db
-│   │   ├── test_movies_endpoints.py
+│   │   ├── db/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── clean_db.py
+│   │   ├── etl/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── _funciones_auxiliares.py
+│   │   │   │   ├── _funciones_log.py
+│   │   │   │   ├── _importar_excel_kits.py
+│   │   │   │   ├── importar_excel_kits.py
+│   │   │   ├── logs/
+│   │   │   │   │   ├── log_errores.txt
+│   │   │   │   │   ├── log_resumen.txt
+│   ├── tests/

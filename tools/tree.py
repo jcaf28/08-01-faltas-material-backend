@@ -5,8 +5,9 @@ import pyperclip
 
 def list_files(startpath, exclude_dirs):
     def add_directory_structure(structure, root, level):
-        indent = '│   ' * (level - 1) + '├── ' if level > 0 else './\n'
-        structure += indent + os.path.basename(root) + '/\n'
+        if level > 0:  # Esto asegura que no añadimos la raíz dos veces
+            indent = '│   ' * (level - 1) + '├── '
+            structure += indent + os.path.basename(root) + '/\n'
         return structure
 
     def add_file_structure(structure, file, level):
@@ -14,7 +15,7 @@ def list_files(startpath, exclude_dirs):
         structure += indent + file + '\n'
         return structure
 
-    structure = ""
+    structure = "./\n"  # Añade la raíz al inicio
     for root, dirs, files in os.walk(startpath):
         if any(exclude_dir in root for exclude_dir in exclude_dirs):
             continue
@@ -26,6 +27,7 @@ def list_files(startpath, exclude_dirs):
         for f in sorted(files):
             structure = add_file_structure(structure, f, sublevel)
     return structure
+
 
 # Modifica esto para incluir las carpetas que quieras excluir
 exclude_dirs = ["venv", ".git", "archivos", "__pycache__", ".vscode", "tools"]
