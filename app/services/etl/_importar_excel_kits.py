@@ -11,8 +11,8 @@ import re
 
 import re
 
-from _funciones_auxiliares import *
-from _funciones_log import escribir_resumen
+from ._funciones_auxiliares import *
+from ._funciones_log import escribir_resumen
 
 load_dotenv()  # Cargar las variables del archivo .env
 ENTORNO = os.getenv('ENTORNO') 

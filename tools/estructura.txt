@@ -13,8 +13,10 @@
 │   │   ├── __init__.py
 │   │   ├── main.py
 │   ├── api/
+│   │   │   ├── __init__.py
 │   │   ├── dependencies/
 │   │   ├── routers/
+│   │   │   │   ├── __init__.py
 │   │   │   │   ├── admin.py
 │   ├── core/
 │   │   │   ├── __init__.py
@@ -25,6 +27,8 @@
 │   │   │   ├── init_db.py
 │   │   │   ├── session.py
 │   ├── middlewares/
+│   │   │   ├── __init__.py
+│   │   │   ├── error_handler.py
 │   ├── models/
 │   │   │   ├── __init__.py
 │   │   │   ├── models.py
@@ -49,8 +53,6 @@
 │   │   │   │   ├── _importar_excel_kits.py
 │   │   │   │   ├── importar_excel_kits.py
 │   │   │   ├── logs/
-│   │   │   │   │   ├── log_errores.txt
-│   │   │   │   │   ├── log_resumen.txt
 │   ├── tests/
 │   │   ├── db/
 │   │   │   │   ├── test_db_connection.py

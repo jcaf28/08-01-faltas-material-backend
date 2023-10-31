@@ -5,10 +5,12 @@ sys.path.append('.')
 
 import os
 import openpyxl
-from _importar_excel_kits import *
-from _funciones_auxiliares import *
+import asyncio
+from concurrent.futures import ProcessPoolExecutor
+from ._importar_excel_kits import *
+from ._funciones_auxiliares import *
 from app.db.session import database_session
-from _funciones_log import escribir_encabezados, escribir_separadores
+from ._funciones_log import escribir_encabezados, escribir_separadores
 from app.core.config import Config
 
 from dotenv import load_dotenv
@@ -73,15 +75,13 @@ def importar_datos_kits(key, proyecto, db, log_resumen, log_errores):
     importar_articulos(sheet, db, log_resumen, log_errores)
     importar_articulos_por_kit(sheet, db, log_resumen, log_errores)
 
+async def importar_excel_kits():
+    loop = asyncio.get_running_loop()
+    with ProcessPoolExecutor() as executor:
+        for key, proyecto in proyectos.items():
+            if isinstance(proyecto, dict) and 'OBRA' in proyecto and 'EXCEL KITS' in proyecto:
+                escribir_encabezados(proyecto['OBRA'], log_errores, log_resumen)
+                await loop.run_in_executor(executor, importar_datos_proyecto, key, proyecto, log_errores, log_resumen, ruta_bogies_entregados)
+                escribir_separadores(log_errores, log_resumen)
 
-for key, proyecto in proyectos.items():
-    if isinstance(proyecto, dict) and 'OBRA' in proyecto and 'EXCEL KITS' in proyecto:
-        escribir_encabezados(proyecto['OBRA'], log_errores, log_resumen)
-        importar_datos_proyecto(key, 
-                                proyecto, 
-                                log_errores, 
-                                log_resumen, 
-                                ruta_bogies_entregados)
-        escribir_separadores(log_errores, log_resumen)
-
-print("Importación finalizada.")
+        print("Importación finalizada.")

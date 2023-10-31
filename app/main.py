@@ -1,10 +1,8 @@
 # app/main.py
 
-# main.py
-
 from fastapi import FastAPI
-from api.routers import admin
-from middlewares.error_handler import ErrorHandlerMiddleware
+from .api.routers import admin
+from .middlewares.error_handler import ErrorHandlerMiddleware
 
 app = FastAPI()
 app.title = "CAF Div3 Acabados - Gestión de Faltas"
