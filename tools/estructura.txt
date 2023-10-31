@@ -18,9 +18,13 @@
 │   │   ├── routers/
 │   │   │   │   ├── __init__.py
 │   │   │   │   ├── admin.py
+│   │   │   │   ├── proyecto.py
 │   ├── core/
 │   │   │   ├── __init__.py
 │   │   │   ├── config.py
+│   ├── crud/
+│   │   │   ├── __init__.py
+│   │   │   ├── crud_proyecto.py
 │   ├── db/
 │   │   │   ├── __init__.py
 │   │   │   ├── base.py
