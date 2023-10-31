@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 class ArticuloKitBase(BaseModel):
+    id_articulo_kit: int
     id_articulo: str
     id_kit: str
     cantidad: int
