@@ -1,31 +1,30 @@
 # app/services/etl/importar_excel_kits.py
 
-# importar_excel_kits.py
-
 import sys
 sys.path.append('.')
 
 import os
+import openpyxl
 from _importar_excel_kits import *
 from _funciones_auxiliares import *
 from app.db.session import database_session
 from _funciones_log import escribir_encabezados, escribir_separadores
-import openpyxl
+from app.core.config import Config
 
 from dotenv import load_dotenv
+config = Config()
 
 load_dotenv()  # Cargar las variables del archivo .env
 
-ENTORNO = os.getenv('ENTORNO')  # Leer la variable ENTORNO del archivo .env
-
-ruta_logs = "src/etl/logs"
+ruta_logs = "app/services/etl/logs"
 nombre_log = nombre_archivo_log()
+
+ruta_archivos = config.RUTA_ARCHIVOS
+ruta_bogies_entregados = config.RUTA_BOGIES_ENTREGADOS
+entorno = config.ENTORNO
 
 # Si estamos en modo desarrollo, borramos el log existente (si existe) y generaremos uno nuevo
 if ENTORNO == 'desarrollo':
-    ruta_archivos = os.getenv('DEV_RUTA_ARCHIVOS')
-    ruta_bogies_entregados = os.getenv('DEV_RUTA_BOGIES_ENTREGADOS')
-
     log_errores = os.path.join(ruta_logs, "log_errores.txt")
     if os.path.exists(log_errores):
         os.remove(log_errores)
@@ -35,9 +34,6 @@ if ENTORNO == 'desarrollo':
         os.remove(log_resumen)
 
 if ENTORNO == 'produccion':
-    ruta_archivos = os.getenv('PROD_RUTA_ARCHIVOS')
-    ruta_bogies_entregados = os.getenv('PROD_RUTA_BOGIES_ENTREGADOS')
-
     nombre_log = nombre_archivo_log()  # Obtener el nombre del archivo de log con timestamp
     log_path = os.path.join(ruta_logs, nombre_log)
 
@@ -73,8 +69,8 @@ def importar_datos_kits(key, proyecto, db, log_resumen, log_errores):
     workbook = openpyxl.load_workbook(ruta_excel, data_only=True)  # Cargar con valores calculados
     sheet = workbook[workbook.sheetnames[0]]
 
-    # importar_kits(key, sheet, db, log_resumen, log_errores)
-    # importar_articulos(sheet, db, log_resumen, log_errores)
+    importar_kits(key, sheet, db, log_resumen, log_errores)
+    importar_articulos(sheet, db, log_resumen, log_errores)
     importar_articulos_por_kit(sheet, db, log_resumen, log_errores)
 
 

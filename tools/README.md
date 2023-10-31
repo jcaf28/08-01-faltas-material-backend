@@ -42,7 +42,7 @@ Puedes ajustar el comportamiento del script modificando las siguientes variables
 Para utilizar el script, ejecútalo directamente desde la línea de comandos en la raíz del proyecto:
 
 ```bash
-python src/utils/tree.py
+python tools/tree.py
 ```
 
 Una vez ejecutado, el script creará (o sobrescribirá si ya existe) un archivo llamado estructura.txt en la raíz del proyecto, que contendrá la estructura de directorios. Además, esta estructura será copiada al portapapeles.

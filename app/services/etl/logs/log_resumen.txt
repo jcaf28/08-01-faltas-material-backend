@@ -1,81 +1,306 @@
 
 ############# AMLD SNCF (MP5 - MP6) ##################
-Operación: Articulos por Kit
-Total de intentos: 1044787
-Total de éxitos: 1545
-Total de errores: 1043242
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 5
+Éxitos: 5
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 336
+Éxitos: 336
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 2042
+Éxitos: 2042
+Errores: 0
+
+*** Tabla 'Articulos' ***:
+Intentos: 2042
+Éxitos: 2042
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 1044787
+Éxitos: 1545
+Errores: 1043242
 
 ####################################################
 
 ############# CIVITY-NS (MJ5 - MJ6) ##################
-Operación: Articulos por Kit
-Total de intentos: 1522
-Total de éxitos: 1251
-Total de errores: 271
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 4
+Éxitos: 4
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 391
+Éxitos: 391
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 1522
+Éxitos: 1522
+Errores: 0
+
+*** Tabla 'Articulos' ***:
+Intentos: 1522
+Éxitos: 1522
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 1522
+Éxitos: 1251
+Errores: 271
 
 ####################################################
 
 ############# DOCKLANDS (MN808 - MN858) ##################
-Operación: Articulos por Kit
-Total de intentos: 896
-Total de éxitos: 787
-Total de errores: 109
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 6
+Éxitos: 6
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 450
+Éxitos: 450
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 896
+Éxitos: 826
+Errores: 70
+
+*** Tabla 'Articulos' ***:
+Intentos: 896
+Éxitos: 896
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 896
+Éxitos: 787
+Errores: 109
 
 ####################################################
 
 ############# ESSEN (MQ908 - MQ958) ##################
-Operación: Articulos por Kit
-Total de intentos: 538
-Total de éxitos: 514
-Total de errores: 24
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 2
+Éxitos: 2
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 168
+Éxitos: 168
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 538
+Éxitos: 538
+Errores: 0
+
+*** Tabla 'Articulos' ***:
+Intentos: 538
+Éxitos: 538
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 538
+Éxitos: 514
+Errores: 24
 
 ####################################################
 
 ############# ESTOCOLMO A36 ( 2º Ampliación ) (MF0) ##################
-Operación: Articulos por Kit
-Total de intentos: 405
-Total de éxitos: 245
-Total de errores: 160
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 2
+Éxitos: 2
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 4
+Éxitos: 4
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 405
+Éxitos: 253
+Errores: 152
+
+*** Tabla 'Articulos' ***:
+Intentos: 405
+Éxitos: 405
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 405
+Éxitos: 245
+Errores: 160
 
 ####################################################
 
 ############# KEOLIS (MN4) ##################
-Operación: Articulos por Kit
-Total de intentos: 779
-Total de éxitos: 746
-Total de errores: 33
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 6
+Éxitos: 6
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 387
+Éxitos: 387
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 779
+Éxitos: 758
+Errores: 21
+
+*** Tabla 'Articulos' ***:
+Intentos: 779
+Éxitos: 779
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 779
+Éxitos: 746
+Errores: 33
 
 ####################################################
 
 ############# LOCOMOTORA RATP (ML5) ##################
-Operación: Articulos por Kit
-Total de intentos: 374
-Total de éxitos: 347
-Total de errores: 27
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 2
+Éxitos: 2
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 24
+Éxitos: 24
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 374
+Éxitos: 372
+Errores: 2
+
+*** Tabla 'Articulos' ***:
+Intentos: 374
+Éxitos: 374
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 374
+Éxitos: 347
+Errores: 27
 
 ####################################################
 
 ############# REPUESTOS CHICLANA (MD3) ##################
-Operación: Articulos por Kit
-Total de intentos: 580
-Total de éxitos: 538
-Total de errores: 42
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 3
+Éxitos: 3
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 4
+Éxitos: 4
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 579
+Éxitos: 542
+Errores: 37
+
+*** Tabla 'Articulos' ***:
+Intentos: 579
+Éxitos: 579
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 580
+Éxitos: 538
+Errores: 42
 
 ####################################################
 
 ############# SFL MALLORCA 5x4 (MQ7) ##################
-Operación: Articulos por Kit
-Total de intentos: 1415
-Total de éxitos: 1178
-Total de errores: 237
 
+*** Tabla 'Proyectos' ***:
+Intentos: 1
+Éxitos: 1
+Errores: 0
+
+*** Tabla 'Vertices' ***:
+Intentos: 4
+Éxitos: 4
+Errores: 0
+
+*** Tabla 'Bogies' ***:
+Intentos: 48
+Éxitos: 48
+Errores: 0
+
+*** Tabla 'Kits' ***:
+Intentos: 1415
+Éxitos: 1272
+Errores: 143
+
+*** Tabla 'Articulos' ***:
+Intentos: 1415
+Éxitos: 1415
+Errores: 0
+
+*** Tabla 'Articulos por Kit' ***:
+Intentos: 1415
+Éxitos: 1178
+Errores: 237
 
 ####################################################

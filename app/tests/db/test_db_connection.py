@@ -1,3 +1,5 @@
+# app/tests/db/test_db_connection.py
+
 import pytest
 from sqlalchemy.exc import OperationalError
 from app.db.session import get_db

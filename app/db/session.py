@@ -2,27 +2,11 @@
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
-import os
-from dotenv import load_dotenv
+from app.core.config import Config
 
-# Cargar las variables de entorno del archivo .env
-load_dotenv()
+config = Config()
 
-# Obtener las variables de entorno
-ENTORNO = os.getenv("ENTORNO", "desarrollo")
-
-if ENTORNO == 'desarrollo':
-    server_name = os.getenv("DEV_DATABASE_SERVER")
-    database_name = os.getenv("DEV_DATABASE_NAME")
-    driver = os.getenv("DEV_DATABASE_DRIVER")
-elif ENTORNO == 'produccion':
-    pass
-else:
-    raise ValueError("ENTORNO no está configurado correctamente en .env")
-
-connection_string = f"mssql+pyodbc://{server_name}/{database_name}?driver={driver}&TrustServerCertificate=yes"
-
-engine = create_engine(connection_string)
+engine = create_engine(config.get_connection_string())
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 session = scoped_session(SessionLocal)
 

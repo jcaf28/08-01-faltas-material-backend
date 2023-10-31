@@ -34,6 +34,82 @@ Fila 707: Datos inválidos. ARTICULO: MB00400016Z, KIT: 2982KQUITAP-A, CANTIDAD:
 ####################################################
 
 ############# DOCKLANDS (MN808 - MN858) ##################
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBIELA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBIELA
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MN8KSBARRA-VOL', '2967_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSBARRA
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MN8KSMOTOR-VOL', '2967_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MN8KRESORTE
 No se encontró el kit con ID MN8KSBIELA
 No se encontró el kit con ID MN8KSBIELA
 No se encontró el kit con ID MN8KSBARRA-VOL
@@ -111,6 +187,329 @@ No se encontró el kit con ID MN8KRESORTE
 ####################################################
 
 ############# ESTOCOLMO A36 ( 2º Ampliación ) (MF0) ##################
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KSTRAVIESA-VO', '5136_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KSTRAVIESA-VO', '5136_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.3-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.3-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.1-VOL', '5136_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.3-VOL', '5136_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ2-TOR', '5136_T', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ1.2-VOL', '5136_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MF0KZ2-VOL', '5136_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSMOTOR
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSTRAVIESA
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
+Error en 'KIT': Valor no válido o no coincide con el key: MF0KSCABECE
 Fila 114: Datos inválidos. ARTICULO: M848400150Z, KIT: MF0KZ1.2-C, CANTIDAD: 0
 Fila 116: Datos inválidos. ARTICULO: MF08400046Z, KIT: MF0KZ1.2-C, CANTIDAD: 0
 Fila 141: Datos inválidos. ARTICULO: M848400150Z, KIT: MF0KZ1.2-D, CANTIDAD: 0
@@ -261,6 +660,39 @@ No se encontró el kit con ID MF0KSCABECE
 ####################################################
 
 ############# KEOLIS (MN4) ##################
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KSBIELAPR
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KSBIELAPR
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KSBIELARE
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KSBIELARE
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KSBARRA
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MN4KSBARRA-VOL', '2925_V', 0, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MN4KPRN-VOL', '2925_V', 1, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MN4KPRN-VOL', '2925_V', 1, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error al intentar añadir/actualizar el kit en la base de datos: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Instrucción INSERT en conflicto con la restricción FOREIGN KEY 'FK__Kits__id_vertice__7F2BE32F'. El conflicto ha aparecido en la base de datos 'DIV3_FALTAS', tabla 'dbo.Vertices', column 'id_vertice'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO [Kits] (id_kit, id_vertice, edicion, cantidad, va_a_linea) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('MN4KPRN-VOL', '2925_V', 1, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KRESORTE
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KSBARRA
+Error en 'KIT': Valor no válido o no coincide con el key: MN4KPRN
 No se encontró el kit con ID MN4KSBIELAPR
 No se encontró el kit con ID MN4KSBIELAPR
 No se encontró el kit con ID MN4KSBIELARE
@@ -286,6 +718,8 @@ No se encontró el kit con ID MN4KPRN
 ####################################################
 
 ############# LOCOMOTORA RATP (ML5) ##################
+Error en 'KIT': Valor no válido o no coincide con el key: 1011KSOPORTE
+Error en 'KIT': Valor no válido o no coincide con el key: 1011KSOPORTE
 Fila 141: Datos inválidos. ARTICULO: X780050602, KIT: 1011KZ1.3-C@, CANTIDAD: 0
 No se encontró el kit con ID 1011KSOPORTE
 No se encontró el kit con ID 1011KSOPORTE
@@ -293,6 +727,43 @@ No se encontró el kit con ID 1011KSOPORTE
 ####################################################
 
 ############# REPUESTOS CHICLANA (MD3) ##################
+Error en 'KIT': Valor no válido o no coincide con el key: 1017KANTENAA
+Error en 'KIT': Valor no válido o no coincide con el key: 1017KSOPORTEA
+Error en 'KIT': Valor no válido o no coincide con el key: 1017KSOPORTEC
+Error en 'KIT': Valor no válido o no coincide con el key: 1017KSOPORTED
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SANTENAA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SANTENAA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SSOPORTEA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SSOPORTEA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SSOPORTEC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SSOPORTEC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SSOPORTED@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017SSOPORTED@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VANTENAA
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VCAPTADORA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VFRENOA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VFRENOC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VFRENOD@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMOTORA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMOTORC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMUELLEA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMUELLEA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMUELLEC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMUELLEC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMUELLED@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VMUELLED@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VPATINA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VPATINC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VPATIND@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VRESORA@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VRESORC@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VRESORD@
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VSOPORTEA
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VSOPORTEA
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VSOPORTEC
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VSOPORTEC
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VSOPORTED
+Error en 'KIT': Valor no válido o no coincide con el key: 1017VSOPORTED
 Fila 158: Datos inválidos. ARTICULO: Q224291514, KIT: 1017KZ1.1-C@, CANTIDAD: 0
 Fila 244: Datos inválidos. ARTICULO: Q224291514, KIT: 1017KZ1.1-D@, CANTIDAD: 0
 No se encontró el kit con ID 1017KANTENAA
@@ -336,6 +807,149 @@ No se encontró el kit con ID 1017VSOPORTED
 ####################################################
 
 ############# SFL MALLORCA 5x4 (MQ7) ##################
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMA
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036VSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
+Error en 'KIT': Valor no válido o no coincide con el key: 1036KSARENEMB
 Fila 466: Datos inválidos. ARTICULO: UTIL UNIVERSAL 1, KIT: 1036KBARRA-A, CANTIDAD: 0
 Fila 504: Datos inválidos. ARTICULO: UTIL UNIVERSAL 1, KIT: 1036KBARRA-B, CANTIDAD: 0
 Fila 537: Datos inválidos. ARTICULO: UTIL UNIVERSAL 1, KIT: 1036KBARRA-C, CANTIDAD: 0

@@ -8,7 +8,7 @@
 │   │   ├── env.py
 │   │   ├── script.py.mako
 │   ├── versions/
-│   │   │   ├── f6d21eb74c9c_migración_inicial.py
+│   │   │   ├── b57819918d9d_mensaje_de_la_migración.py
 ├── app/
 │   │   ├── __init__.py
 │   │   ├── main.py

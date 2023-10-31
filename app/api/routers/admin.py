@@ -4,9 +4,9 @@ from fastapi import APIRouter, HTTPException
 from app.services.db import clean_db
 from app.services.etl import importar_excel_kits
 
-router = APIRouter(prefix="/admin")
+router_admin = APIRouter()
 
-@router.post("/limpiar_bd")
+@router_admin.post("/limpiar_bd")
 async def limpiar_base_de_datos():
     try:
         clean_db.limpiar_bd()
@@ -14,7 +14,7 @@ async def limpiar_base_de_datos():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@router.post("/importar_kits")
+@router_admin.post("/importar_kits")
 async def importar_kits():
     try:
         importar_excel_kits.ejecutar_importacion()

@@ -4,7 +4,7 @@ import sys
 sys.path.append('.')
 
 import os
-from src.models.models import *
+from app.models.models import *
 from dotenv import load_dotenv
 import re
 import re
@@ -12,7 +12,7 @@ import re
 import re
 
 from _funciones_auxiliares import *
-from _funciones_log import *
+from _funciones_log import escribir_resumen
 
 load_dotenv()  # Cargar las variables del archivo .env
 ENTORNO = os.getenv('ENTORNO') 
@@ -292,13 +292,6 @@ def importar_articulos(sheet, db, log_errores, log_resumen):
             errores += 1
     
     escribir_resumen(log_resumen, total_intentos, total_exitos, 'Articulos')
-
-def escribir_resumen(log_resumen, total_intentos, total_exitos, operacion):
-    with open(log_resumen, 'a', encoding='utf-8') as log_file:
-        log_file.write(f"Operación: {operacion}\n")
-        log_file.write(f"Total de intentos: {total_intentos}\n")
-        log_file.write(f"Total de éxitos: {total_exitos}\n")
-        log_file.write(f"Total de errores: {total_intentos - total_exitos}\n\n")
 
 def importar_articulos_por_kit(sheet, db, log_errores, log_resumen):
     total_intentos = 0
