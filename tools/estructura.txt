@@ -3,6 +3,7 @@
 │   ├── .gitignore
 │   ├── alembic.ini
 │   ├── requirements.txt
+│   ├── uvicorn
 ├── alembic/
 │   │   ├── README
 │   │   ├── env.py
