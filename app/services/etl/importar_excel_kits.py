@@ -47,9 +47,9 @@ def importar_datos_proyecto(key, proyecto, log_errores, log_resumen, ruta_bogies
         # Importar datos Proyectos
         importar_proyecto(key, proyecto, db, log_errores, log_resumen)
         # Buscar y leer datos vértices y bogies
-        importar_datos_bogies_entregados(key, ruta_bogies_entregados, db, log_resumen, log_errores)
-        # Importar datos kits
-        importar_datos_kits(key, proyecto, db, log_errores, log_resumen)
+        # importar_datos_bogies_entregados(key, ruta_bogies_entregados, db, log_resumen, log_errores)
+        # # Importar datos kits
+        # importar_datos_kits(key, proyecto, db, log_errores, log_resumen)
 
 def importar_datos_bogies_entregados(key, ruta_bogies_entregados, db, log_resumen, log_errores):
     archivo = buscar_archivo_bogies_entregados(ruta_bogies_entregados)
