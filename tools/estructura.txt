@@ -8,6 +8,7 @@
 │   │   ├── env.py
 │   │   ├── script.py.mako
 │   ├── versions/
+│   │   │   ├── f6d21eb74c9c_migración_inicial.py
 ├── app/
 │   │   ├── __init__.py
 │   │   ├── main.py
@@ -51,3 +52,5 @@
 │   │   │   │   │   ├── log_errores.txt
 │   │   │   │   │   ├── log_resumen.txt
 │   ├── tests/
+│   │   ├── db/
+│   │   │   │   ├── test_db_connection.py

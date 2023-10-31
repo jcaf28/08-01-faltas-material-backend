@@ -203,6 +203,5 @@ $RECYCLE.BIN/
 
 /archivos/
 /.vscode/
-/venv/
-
+venv_*/
 
