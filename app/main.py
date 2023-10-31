@@ -1,7 +1,7 @@
 # app/main.py
 
 from fastapi import FastAPI
-from .api.routers import admin, proyecto, vertice
+from .api.routers import admin, proyecto, vertice, bogie
 from .middlewares.error_handler import ErrorHandlerMiddleware
 from starlette.middleware.cors import CORSMiddleware
 
@@ -23,3 +23,4 @@ app.add_middleware(
 app.include_router(admin.router_admin, prefix="/admin", tags=["admin"])
 app.include_router(proyecto.router_proyecto, prefix="/proyectos", tags=["proyectos"])
 app.include_router(vertice.router_vertice, prefix="/api", tags=["vertice"])
+app.include_router(bogie.router_bogie, prefix="/api/v1", tags=["bogies"])
