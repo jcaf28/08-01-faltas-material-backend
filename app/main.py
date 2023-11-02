@@ -7,7 +7,7 @@ from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 app.title = "CAF Div3 Acabados - Gestión de Faltas"
-app.version = "0.1"
+app.version = "1.0"
 
 # Registra el middleware
 # app.add_middleware(ErrorHandlerMiddleware)

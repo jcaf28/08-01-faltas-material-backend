@@ -2,8 +2,8 @@
 │   ├── .env
 │   ├── .gitignore
 │   ├── alembic.ini
+│   ├── readme.md
 │   ├── requirements.txt
-│   ├── uvicorn
 ├── alembic/
 │   │   ├── README
 │   │   ├── env.py
@@ -19,13 +19,25 @@
 │   │   ├── routers/
 │   │   │   │   ├── __init__.py
 │   │   │   │   ├── admin.py
+│   │   │   │   ├── articulo.py
+│   │   │   │   ├── articulo_kit.py
+│   │   │   │   ├── bogie.py
+│   │   │   │   ├── falta.py
+│   │   │   │   ├── kit.py
 │   │   │   │   ├── proyecto.py
+│   │   │   │   ├── vertice.py
 │   ├── core/
 │   │   │   ├── __init__.py
 │   │   │   ├── config.py
 │   ├── crud/
 │   │   │   ├── __init__.py
+│   │   │   ├── crud_articulo.py
+│   │   │   ├── crud_articulo_kit.py
+│   │   │   ├── crud_bogie.py
+│   │   │   ├── crud_falta.py
+│   │   │   ├── crud_kit.py
 │   │   │   ├── crud_proyecto.py
+│   │   │   ├── crud_vertice.py
 │   ├── db/
 │   │   │   ├── __init__.py
 │   │   │   ├── base.py
